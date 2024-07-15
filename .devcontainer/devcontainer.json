@@ -1,0 +1,17 @@
+{
+    "service": "freedev",
+    "name": "obj1-freedev",
+    "dockerComposeFile": "./docker-compose.yaml",
+    "workspaceFolder": "${localWorkspaceFolder}",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "esbenp.prettier-vscode",
+                "GitHub.vscode-pull-request-github",
+                "ms-azuretools.vscode-docker",
+                "vscjava.vscode-java-pack"
+            ]
+        }
+    }    
+}
