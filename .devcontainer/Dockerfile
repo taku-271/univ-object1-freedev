@@ -1,1 +1,3 @@
-FROM openjdk:24-bookworm24-bookworm
+FROM openjdk:24-bookworm
+
+RUN apt-get update && apt-get install -y maven

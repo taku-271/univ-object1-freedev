@@ -11,3 +11,14 @@ services:
     volumes:
       - $PWD:$PWD
     working_dir: $PWD
+
+  freedev-mysql:
+    image: mysql:latest
+    env_file:
+      - ../.env
+    volumes:
+      - ./docker/mysql:/var/lib/mysql
+    ports:
+      - 3306:3306
+    restart: always
+    tty: true
