@@ -19,7 +19,4 @@ public class Teacher {
 
     @Column(name ="name")
     private String name;
-
-    @Column(name = "subject_id")
-    private int subject_id;
 }

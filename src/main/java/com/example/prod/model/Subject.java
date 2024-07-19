@@ -20,4 +20,7 @@ public class Subject {
 
     @Column(name = "user_id")
     private int user_id;
+
+    @Column(name = "teacher_id")
+    private int teacher_id;
 }
