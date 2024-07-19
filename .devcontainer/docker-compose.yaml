@@ -11,6 +11,8 @@ services:
     volumes:
       - $PWD:$PWD
     working_dir: $PWD
+    extra_hosts:
+      - host.docker.internal:host-gateway
 
   freedev-mysql:
     image: mysql:latest
